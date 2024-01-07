@@ -1,0 +1,56 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{D6CA7CD9-4C7E-F3D9-0493-5190FA0D4EB3}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "PluginGenerator",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "RearAndroidDeeplink",
+			"Enabled": false
+		},
+		{
+			"Name": "ChaosEditor",
+			"Enabled": false
+		},
+		{
+			"Name": "ChaosNiagara",
+			"Enabled": false
+		},
+		{
+			"Name": "ChaosSolverPlugin",
+			"Enabled": false
+		},
+		{
+			"Name": "RearAndroidApplink",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/4a3eb0385fb34b1ca3e68666c31e6b02"
+		},
+		{
+			"Name": "RearAndroidNative",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/4a3eb0385fb34b1ca3e68666c31e6b02"
+		},
+		{
+			"Name": "RearAndroidGiffy",
+			"Enabled": false
+		},
+		{
+			"Name": "RearAndroidNotif",
+			"Enabled": true
+		}
+	]
+}
